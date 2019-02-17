@@ -11,7 +11,7 @@ import java.util.Objects;
 
 /**
  *
- * @author Thedath Oudarya
+ * @author Miguel Angel
  */
 public final class Block {
 

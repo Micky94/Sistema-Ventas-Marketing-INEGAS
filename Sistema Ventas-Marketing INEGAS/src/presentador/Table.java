@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  *
- * @author Thedath Oudarya
+ * @author Miguel Angel
  */
 public final class Table {
     

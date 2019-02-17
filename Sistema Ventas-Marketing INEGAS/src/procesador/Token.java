@@ -38,43 +38,31 @@ public class Token {
     public static final int OBTENERCLIENTES = 207;
     public static final int MODIFICARCLIENTE = 208;
     public static final int ELIMINARCLIENTE = 209;
-    
-//3 Docente
-    public static final int REGISTRARDOCENTE = 210;
-    public static final int OBTENERDOCENTE = 211;
-    public static final int OBTENERDOCENTES = 212;
-    public static final int MODIFICARDOCENTE = 213;
-    public static final int ELIMINARDOCENTE = 214;
+  
+    //3 Programa
+    public static final int REGISTRARPROGRAMA = 210;
+    public static final int OBTENERPROGRAMA = 211;
+    public static final int OBTENERPROGRAMAS = 212;
+    public static final int MODIFICARPROGRAMA = 213;
+    public static final int ELIMINARPROGRAMA = 214;
+    //4 Modulo 
+    public static final int REGISTRARMODULO = 228;
+    public static final int OBTENERMODULO = 229;
+    public static final int OBTENERMODULOS = 230;
+    public static final int MODIFICARMODULO = 231;
+    public static final int ELIMINARMODULO = 232;
 
-//    //6 Programa
-//    public static final int REGISTRARPROGRAMA = 223;
-//    public static final int OBTENERPROGRAMA = 224;
-//    public static final int OBTENERPROGRAMAS = 225;
-//    public static final int MODIFICARPROGRAMA = 226;
-//    public static final int ELIMINARPROGRAMA = 227;
-//    //7 Modulo
-//    public static final int REGISTRARMODULO = 228;
-//    public static final int OBTENERMODULO = 229;
-//    public static final int OBTENERMODULOS = 230;
-//    public static final int MODIFICARMODULO = 231;
-//    public static final int ELIMINARMODULO = 232;
+    //5 Detalle Programa Modulo
+    public static final int REGISTRARMODULOSPROGRAMA = 229;
+    public static final int OBTENERMODULOSPROGRAMA = 230;
+    public static final int ELIMINARMODULOPROGRAMA = 231;
+    //6 Oferta Programa
+    public static final int REGISTRAROFERTAPROGRAMA = 232;
+    public static final int OBTENEROFERTAPROGRAMA = 233;
+    public static final int OBTENEROFERTAPROGRAMAS = 234;
+    public static final int MODIFICAROFERTAPROGRAMA = 235;
+    public static final int ELIMINAROFERTAPROGRAMA = 236;
 
-//    public static final int ELIMINARCARGOADMIN = 238;
-//    //10 Detalle Programa Modulo
-//    public static final int REGISTRARMODULOSPROGRAMA = 239;
-//    public static final int OBTENERMODULOSPROGRAMA = 240;
-//    public static final int ELIMINARMODULOPROGRAMA = 241;
-//    //11 Oferta Programa
-//    public static final int REGISTRAROFERTAPROGRAMA = 242;
-//    public static final int OBTENEROFERTAPROGRAMA = 243;
-//    public static final int OBTENEROFERTAPROGRAMAS = 244;
-//    public static final int MODIFICAROFERTAPROGRAMA = 245;
-//    public static final int ELIMINAROFERTAPROGRAMA = 246;
-//    //12 Convalidacion
-//    public static final int REGISTRARCONVALIDACION = 247;
-//    public static final int OBTENERCONVALIDACION = 248;
-//    public static final int OBTENERCONVALIDACIONES = 249;
-//    public static final int ELIMINARCONVALIDACION = 250;
 //    //13 Boleta Inscripcion
 //    public static final int REGISTRARBOLETAINSCRIPCION = 251;
 //    public static final int OBTENERBOLETAINSCRIPCION = 252;

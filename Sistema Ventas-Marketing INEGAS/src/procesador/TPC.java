@@ -10,7 +10,7 @@ import java.util.LinkedList;
 
 /**
  *
- * @author Brian
+ * @author Miguel Angel
  */
 public class TPC {
 
@@ -41,17 +41,18 @@ public class TPC {
             "OBTENERPROGRAMAS",
             "MODIFICARPROGRAMA",
             "ELIMINARPROGRAMA",
-            //7
+            //4
             "REGISTRARMODULO",
             "OBTENERMODULO",
             "OBTENERMODULOS",
             "MODIFICARMODULO",
             "ELIMINARMODULO",
-            //8
+            //5
             "REGISTRARMODULOSPROGRAMA",
             "OBTENERMODULOSPROGRAMA",
             "ELIMINARMODULOPROGRAMA",
-            //11
+            
+            //
             "REGISTRAROFERTAPROGRAMA",
             "OBTENEROFERTAPROGRAMA",
             "OBTENEROFERTAPROGRAMAS",
@@ -108,20 +109,19 @@ public class TPC {
             new Token(Token.FUNC, Token.MODIFICARCLIENTE, "MODIFICARCLIENTE"),
             new Token(Token.FUNC, Token.ELIMINARCLIENTE, "ELIMINARCLIENTE"),
             //4
-         
-//            6
-//            new Token(Token.FUNC, Token.REGISTRARPROGRAMA, "REGISTRARPROGRAMA"),
-//            new Token(Token.FUNC, Token.OBTENERPROGRAMA, "OBTENERPROGRAMA"),
-//            new Token(Token.FUNC, Token.OBTENERPROGRAMAS, "OBTENERPROGRAMAS"),
-//            new Token(Token.FUNC, Token.MODIFICARPROGRAMA, "MODIFICARPROGRAMA"),
-//            new Token(Token.FUNC, Token.ELIMINARPROGRAMA, "ELIMINARPROGRAMA"),
-//            7
-//            new Token(Token.FUNC, Token.REGISTRARMODULO, "REGISTRARMODULO"),
-//            new Token(Token.FUNC, Token.OBTENERMODULO, "OBTENERMODULO"),
-//            new Token(Token.FUNC, Token.OBTENERMODULOS, "OBTENERMODULOS"),
-//            new Token(Token.FUNC, Token.MODIFICARMODULO, "MODIFICARMODULO"),
-//            new Token(Token.FUNC, Token.ELIMINARMODULO, "ELIMINARMODULO"),
-//            8
+  
+            new Token(Token.FUNC, Token.REGISTRARPROGRAMA, "REGISTRARPROGRAMA"),
+            new Token(Token.FUNC, Token.OBTENERPROGRAMA, "OBTENERPROGRAMA"),
+            new Token(Token.FUNC, Token.OBTENERPROGRAMAS, "OBTENERPROGRAMAS"),
+            new Token(Token.FUNC, Token.MODIFICARPROGRAMA, "MODIFICARPROGRAMA"),
+            new Token(Token.FUNC, Token.ELIMINARPROGRAMA, "ELIMINARPROGRAMA"),
+            //5
+            new Token(Token.FUNC, Token.REGISTRARMODULO, "REGISTRARMODULO"),
+            new Token(Token.FUNC, Token.OBTENERMODULO, "OBTENERMODULO"),
+            new Token(Token.FUNC, Token.OBTENERMODULOS, "OBTENERMODULOS"),
+            new Token(Token.FUNC, Token.MODIFICARMODULO, "MODIFICARMODULO"),
+            new Token(Token.FUNC, Token.ELIMINARMODULO, "ELIMINARMODULO"),
+            //8
 //            new Token(Token.FUNC, Token.REGISTRARPROFESIONDOCENTE, "REGISTRARPROFESIONDOCENTE"),
 //            new Token(Token.FUNC, Token.OBTENERPROFESIONESDOCENTE, "OBTENERPROFESIONDOCENTE"),
 //            new Token(Token.FUNC, Token.ELIMINARPROFESIONDOCENTE, "ELIMINARPROFESIONDOCENTE"),

@@ -7,7 +7,7 @@ package presentador;
 
 /**
  *
- * @author Thedath Oudarya
+ * @author Miguel Angel
  */
 class Charr {
     
