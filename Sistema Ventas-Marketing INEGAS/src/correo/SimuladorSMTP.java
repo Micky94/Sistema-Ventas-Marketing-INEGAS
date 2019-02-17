@@ -12,7 +12,7 @@ import javax.mail.Authenticator.*;
 import java.util.*;
 /**
  *
- * @author Brian
+ * @author Miguel Angel 
  */
 public class SimuladorSMTP {
       private class SMTPAuthenticator extends Authenticator

@@ -7,7 +7,7 @@ package utils;
 
 /**
  *
- * @author Brian
+ * @author Miguel Angel 
  */
 public class Helper {
 

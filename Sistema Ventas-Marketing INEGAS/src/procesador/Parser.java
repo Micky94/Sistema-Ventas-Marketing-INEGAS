@@ -7,7 +7,7 @@ package procesador;
 
 /**
  *
- * @author Brian
+ * @author Miguel Angel
  */
 public class Parser {
 
